@@ -44,9 +44,12 @@ jobs:
         with:
           persist-credentials: false
       - name: Analyze mode (deletes nothing)
-        shell: ${{ matrix.shell }}
+        shell: pwsh
+        env:
+          BROOM_HOST: ${{ matrix.shell }}
         run: |
-          ./Broom.ps1 -Mode Analyze -Yes -NoElevate
+          & "$env:BROOM_HOST.exe" -NoProfile -ExecutionPolicy Bypass -File ./Broom.ps1 -Mode Analyze -Yes -NoElevate
+          if ($LASTEXITCODE) { throw "Broom exited with $LASTEXITCODE" }
           $log = Get-ChildItem "$env:ProgramData\Broom\Logs\*.log" | Sort-Object LastWriteTime | Select-Object -Last 1
           if (-not $log) { throw 'No log written' }
           $text = Get-Content $log.FullName -Raw
