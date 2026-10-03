@@ -1067,7 +1067,7 @@ function Get-WrappedLines([string]$Text, [int]$Width, [int]$Max = 2) {
 }
 
 function Write-Header([string]$Subtitle = '') {
-    Clear-Host
+    try { Clear-Host } catch {}   # throws without a real console (CI, redirected output)
     Write-Host ''
     for ($i = 0; $i -lt $script:LogoLines.Count; $i++) {
         Write-Host ('  ' + $script:LogoLines[$i]) -NoNewline -ForegroundColor $(if ($i -lt 3) { 'Cyan' } else { 'DarkCyan' })
@@ -1471,7 +1471,7 @@ function Start-Broom {
             'Backups' { Show-Backups }
         }
     }
-    Clear-Host
+    try { Clear-Host } catch {}   # throws without a real console (CI, redirected output)
     Write-Host ''
     Write-Host '  Swept clean. See you next time!' -ForegroundColor Cyan
     Write-Host ''
