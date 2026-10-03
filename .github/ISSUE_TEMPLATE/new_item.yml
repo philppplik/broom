@@ -1,0 +1,23 @@
+name: New cleaning item
+description: Suggest junk Broom should sweep
+labels: [enhancement]
+body:
+  - type: input
+    id: what
+    attributes: { label: What should be cleaned?, placeholder: 'Zoom cache' }
+    validations: { required: true }
+  - type: textarea
+    id: paths
+    attributes:
+      label: Paths / registry keys
+      description: Exact locations, e.g. %LOCALAPPDATA%\Zoom\data\Cache
+    validations: { required: true }
+  - type: textarea
+    id: safe
+    attributes:
+      label: Why is it safe to delete?
+      description: Is it rebuilt automatically? What does the user lose?
+    validations: { required: true }
+  - type: dropdown
+    id: tier
+    attributes: { label: Suggested tier, options: [Quick, Deep, Nuclear] }

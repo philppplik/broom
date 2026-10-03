@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint (parser, ASCII, PSScriptAnalyzer)
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install PSScriptAnalyzer
+        shell: pwsh
+        run: Install-Module PSScriptAnalyzer -Scope CurrentUser -Force -SkipPublisherCheck
+      - name: Static checks
+        shell: pwsh
+        run: ./tools/Test-Broom.ps1
+
+  dry-run:
+    name: Dry run (${{ matrix.os }}, ${{ matrix.shell }})
+    needs: lint
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, windows-11-arm]
+        shell: [powershell, pwsh]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Analyze mode (deletes nothing)
+        shell: ${{ matrix.shell }}
+        run: |
+          ./Broom.ps1 -Mode Analyze -Yes -NoElevate
+          $log = Get-ChildItem "$env:ProgramData\Broom\Logs\*.log" | Sort-Object LastWriteTime | Select-Object -Last 1
+          if (-not $log) { throw 'No log written' }
+          $text = Get-Content $log.FullName -Raw
+          if ($text -notmatch '=== Total') { throw 'Run did not finish' }
+          Get-Content $log.FullName -Tail 60

@@ -1,0 +1,36 @@
+name: Bug report
+description: Something was cleaned that shouldn't be, or Broom crashed / misbehaved
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Security problems** (e.g. user data deleted, junctions followed) go to a [private advisory](https://github.com/philppplik/broom/security/advisories/new) instead.
+  - type: input
+    id: version
+    attributes: { label: Broom version, placeholder: '1.0.0' }
+    validations: { required: true }
+  - type: input
+    id: windows
+    attributes: { label: Windows edition and build, placeholder: 'Windows 11 Pro 25H2 (26200.xxxx)' }
+    validations: { required: true }
+  - type: dropdown
+    id: arch
+    attributes: { label: Architecture, options: [x64, ARM64] }
+    validations: { required: true }
+  - type: dropdown
+    id: shell
+    attributes: { label: PowerShell, options: ['Windows PowerShell 5.1', 'PowerShell 7.x'] }
+  - type: input
+    id: item
+    attributes: { label: Which item / mode?, placeholder: 'Deep Clean > App caches' }
+  - type: textarea
+    id: what
+    attributes: { label: What happened, and what did you expect? }
+    validations: { required: true }
+  - type: textarea
+    id: log
+    attributes:
+      label: Relevant log lines
+      description: From C:\ProgramData\Broom\Logs\broom-*.log. Remove anything private.
+      render: text
