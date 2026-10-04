@@ -209,16 +209,61 @@ pub fn is_safe(p: &Path) -> bool {
         "/icloud drive",
         "/dropbox",
         "/google drive",
+        // localized XDG / macOS folder names (de, fr, es, it, pt, nl)
+        "/dokumente",
+        "/bilder",
+        "/musik",
+        "/schreibtisch",
+        "/documenti",
+        "/immagini",
+        "/musica",
+        "/documentos",
+        "/imágenes",
+        "/música",
+        "/imagens",
+        "/vidéos",
+        "/images",
+        "/musique",
+        "/téléchargements",
+        "/descargas",
+        "/scaricati",
+        "/documenten",
+        "/afbeeldingen",
     ];
-    let in_app_data = n.contains("/appdata/") || n.contains("/library/caches") || n.contains("/.cache/");
+    let lower = n.to_lowercase();
+    if xdg_user_dirs().iter().any(|d| lower == *d || lower.starts_with(&format!("{d}/"))) {
+        return false;
+    }
+    // personal-folder names are matched case-insensitively on every OS (Linux paths are case-sensitive, the guard must not be)
+    let l = n.to_lowercase();
+    let in_app_data = l.contains("/appdata/") || l.contains("/library/caches") || l.contains("/.cache/");
     if !in_app_data {
         for seg in personal {
-            if n.contains(&format!("{seg}/")) || n.ends_with(seg) || n.contains(&format!("{seg} ")) {
+            if l.contains(&format!("{seg}/")) || l.ends_with(seg) || l.contains(&format!("{seg} ")) {
                 return false;
             }
         }
     }
     true
+}
+
+/// The user's real personal folders on Linux (~/.config/user-dirs.dirs), lower-cased.
+fn xdg_user_dirs() -> Vec<String> {
+    let mut v = Vec::new();
+    if cfg!(target_os = "linux") {
+        for h in super::profiles() {
+            let Ok(text) = fs::read_to_string(h.join(".config/user-dirs.dirs")) else { continue };
+            for line in text.lines().filter(|l| l.starts_with("XDG_") && !l.starts_with("XDG_DESKTOP")) {
+                if let Some(val) = line.split_once('=').map(|x| x.1.trim().trim_matches('"')) {
+                    let p = val.replace("$HOME", &h.to_string_lossy());
+                    if p.trim_end_matches('/') != h.to_string_lossy().trim_end_matches('/') {
+                        v.push(norm(Path::new(&p)).to_lowercase());
+                    }
+                }
+            }
+        }
+    }
+    v
 }
 
 #[derive(Clone, Default)]
@@ -567,6 +612,8 @@ mod tests {
         assert!(!is_safe(&system_root()));
         assert!(!is_safe(&super::super::home()));
         assert!(!is_safe(&super::super::home().join("Documents").join("x")));
+        assert!(!is_safe(&super::super::home().join("Dokumente").join("x")));
+        assert!(!is_safe(&super::super::home().join("Pictures")));
         assert!(is_safe(&super::super::home().join("AppData").join("Local").join("Temp")));
     }
 }
