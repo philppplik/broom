@@ -1,11 +1,12 @@
 ## What & why
 
-<!-- Short description. Link the issue if there is one: Fixes #123 -->
+<!-- Short description. Link the issue: Fixes #123 -->
 
 ## Checklist
 
-- [ ] Works in dry run (`-Mode Analyze`) and changes nothing there
-- [ ] Uses `Clear-Path` / `Get-BroomFiles` / `Remove-Reg*` / `Test-PathMissing` (no reparse-point following, registry backed up)
-- [ ] `./tools/Test-Broom.ps1` passes
-- [ ] Tested on: <!-- x64 / ARM64, PowerShell 5.1 / 7 -->
-- [ ] `docs/ITEMS.md`, README table and `CHANGELOG.md` updated (if user-visible)
+- [ ] Respects dry run (`--dry-run` / F2) and changes nothing there
+- [ ] Uses the safe helpers (`util::fs`, `util::reg`, `path_missing`) - no link following, registry backed up
+- [ ] `cargo fmt --check`, `cargo clippy`, `cargo test -- --test-threads=1` pass
+- [ ] Tested on: <!-- Windows x64 / ARM64, macOS, Linux distro -->
+- [ ] Docs and `CHANGELOG.md` updated (if user-visible)
+- [ ] No code/data/text from GPL or CC-BY-SA projects

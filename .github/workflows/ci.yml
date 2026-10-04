@@ -13,45 +13,99 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  CARGO_TERM_COLOR: always
+
 jobs:
-  lint:
-    name: Lint (parser, ASCII, PSScriptAnalyzer)
+  fmt:
+    name: Format
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - run: rustup component add rustfmt && cargo fmt --check
+
+  test:
+    name: Test (${{ matrix.os }})
+    needs: fmt
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, windows-11-arm, ubuntu-latest, ubuntu-24.04-arm, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install Rust if the image has none
+        run: |
+          if ! command -v cargo >/dev/null; then
+            if [ "$RUNNER_OS" = "Windows" ]; then
+              curl -sSfL -o rustup-init.exe "https://static.rust-lang.org/rustup/dist/$( [ "$RUNNER_ARCH" = ARM64 ] && echo aarch64 || echo x86_64 )-pc-windows-msvc/rustup-init.exe"
+              ./rustup-init.exe -y --profile minimal
+              echo "$USERPROFILE/.cargo/bin" >> "$GITHUB_PATH"
+            else
+              curl -sSf https://sh.rustup.rs | sh -s -- -y --profile minimal
+              echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
+            fi
+          fi
+      - run: rustup component add clippy
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-${{ runner.arch }}-cargo-${{ hashFiles('Cargo.lock') }}
+      - name: Clippy (correctness and suspicious are errors)
+        run: cargo clippy --all-targets -- -D clippy::correctness -D clippy::suspicious
+      - name: Unit tests (incl. junction safety, quarantine round-trip, exact tweak undo)
+        run: cargo test -- --test-threads=1
+      - name: Release build
+        run: cargo build --release
+      - name: Smoke test - every command in dry run
+        run: |
+          B=target/release/broom; [ -f "$B.exe" ] && B="$B.exe"
+          "$B" --version
+          "$B" --dry-run --no-elevate clean --tier nuclear --json > clean.json
+          "$B" --no-elevate tweaks list --json > tweaks.json
+          "$B" --no-elevate uninstall --json > uninstall.json
+          "$B" --no-elevate doctor --json > doctor.json
+          PYTHON=$(command -v python3 || command -v python)
+          "$PYTHON" - <<'PY'
+          import json
+          c = json.load(open("clean.json")); assert c["dry_run"] and c["items"], "clean"
+          assert len(json.load(open("tweaks.json"))) > 5, "tweaks"
+          json.load(open("uninstall.json"))
+          d = json.load(open("doctor.json")); assert "score" in d and d["hardware"]["cpu"], "doctor"
+          print("clean items:", len(c["items"]), "| tweaks ok | uninstall ok | doctor score:", d["score"])
+          PY
+      - name: Smoke test - render every TUI tab headless
+        run: |
+          B=target/release/broom; [ -f "$B.exe" ] && B="$B.exe"
+          for t in home clean uninstall tweaks doctor backups; do
+            "$B" --dry-run --no-elevate snapshot --tab $t --width 140 --height 40 --wait 90 > "snap-$t.txt"
+            grep -q "BROOM" "snap-$t.txt" || { echo "tab $t did not render"; cat "snap-$t.txt"; exit 1; }
+          done
+          cat snap-doctor.txt
+
+  legacy:
+    name: Legacy PowerShell 1.x
     runs-on: windows-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - name: Install PSScriptAnalyzer
+      - name: Parse legacy/Broom.ps1
         shell: pwsh
-        run: Install-Module PSScriptAnalyzer -Scope CurrentUser -Force -SkipPublisherCheck
-      - name: Static checks
-        shell: pwsh
-        run: ./tools/Test-Broom.ps1
-
-  dry-run:
-    name: Dry run (${{ matrix.os }}, ${{ matrix.shell }})
-    needs: lint
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [windows-latest, windows-11-arm]
-        shell: [powershell, pwsh]
-    runs-on: ${{ matrix.os }}
-    timeout-minutes: 20
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-      - name: Analyze mode (deletes nothing)
-        shell: pwsh
-        env:
-          BROOM_HOST: ${{ matrix.shell }}
         run: |
-          & "$env:BROOM_HOST.exe" -NoProfile -ExecutionPolicy Bypass -File ./Broom.ps1 -Mode Analyze -Yes -NoElevate
-          if ($LASTEXITCODE) { throw "Broom exited with $LASTEXITCODE" }
-          $log = Get-ChildItem "$env:ProgramData\Broom\Logs\*.log" | Sort-Object LastWriteTime | Select-Object -Last 1
-          if (-not $log) { throw 'No log written' }
-          $text = Get-Content $log.FullName -Raw
-          if ($text -notmatch '=== Total') { throw 'Run did not finish' }
-          Get-Content $log.FullName -Tail 60
+          $e = $null; $t = $null
+          [void][System.Management.Automation.Language.Parser]::ParseFile((Resolve-Path legacy/Broom.ps1), [ref]$t, [ref]$e)
+          if ($e) { $e | ForEach-Object { "L$($_.Extent.StartLineNumber): $($_.Message)" }; exit 1 }

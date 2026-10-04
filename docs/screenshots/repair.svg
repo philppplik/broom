@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1204" height="696" viewBox="0 0 1204 696">
+<style>text{font-family:'Cascadia Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace;font-size:14px;white-space:pre}</style>
+<rect width="100%" height="100%" rx="10" fill="#0C0C0C"/>
+<rect width="100%" height="28" rx="10" fill="#1F1F1F"/><rect y="18" width="100%" height="10" fill="#1F1F1F"/>
+<circle cx="18" cy="14" r="5.5" fill="#FF5F57"/><circle cx="36" cy="14" r="5.5" fill="#FEBC2E"/><circle cx="54" cy="14" r="5.5" fill="#28C840"/>
+<text x="602" y="18" fill="#9D9D9D" text-anchor="middle" style="font-size:12px">broom</text>
+<rect x="14.0" y="36.0" width="67.2" height="18" fill="#3A96DD"/>
+<text x="14.0" y="49.5" fill="#0C0C0C" font-weight="bold" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ▌BROOM </text>
+<text x="81.2" y="49.5" fill="#767676" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> v2.0.0 </text>
+<text x="148.4" y="49.5" fill="#CCCCCC" textLength="403.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Windows 11 Home 25H2 (26200.9550) · ARM64  C:\ </text>
+<text x="551.6" y="49.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">██████░░░░</text>
+<text x="635.6" y="49.5" fill="#CCCCCC" textLength="126.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 92.21 GB free </text>
+<rect x="761.6" y="36.0" width="75.6" height="18" fill="#C19C00"/>
+<text x="761.6" y="49.5" fill="#0C0C0C" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> LIMITED </text>
+<rect x="845.6" y="36.0" width="75.6" height="18" fill="#881798"/>
+<text x="845.6" y="49.5" fill="#0C0C0C" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> DRY RUN </text>
+<text x="22.4" y="67.5" fill="#CCCCCC" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 1 Home </text>
+<text x="98.0" y="67.5" fill="#CCCCCC" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 2 Clean </text>
+<text x="182.0" y="67.5" fill="#CCCCCC" textLength="109.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 3 Uninstall </text>
+<text x="299.6" y="67.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 4 Tweaks </text>
+<rect x="392.0" y="54.0" width="84.0" height="18" fill="#C19C00"/>
+<text x="392.0" y="67.5" fill="#0C0C0C" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 5 Doctor </text>
+<text x="484.4" y="67.5" fill="#CCCCCC" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 6 Backups </text>
+<text x="14.0" y="85.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Findings </text>
+<rect x="106.4" y="72.0" width="67.2" height="18" fill="#3A96DD"/>
+<text x="106.4" y="85.5" fill="#0C0C0C" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Repair </text>
+<text x="182.0" y="85.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Hardware </text>
+<text x="274.4" y="85.5" fill="#767676" textLength="142.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  ← → switch view</text>
+<text x="14.0" y="103.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╭</text>
+<text x="22.4" y="103.5" fill="#3A96DD" font-weight="bold" textLength="252.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Repair &amp; maintenance toolbox </text>
+<text x="274.4" y="103.5" fill="#3A96DD" textLength="915.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">────────────────────────────────────────────────────────────────────────────────────────────────────────────╮</text>
+<text x="14.0" y="121.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<rect x="30.8" y="108.0" width="411.6" height="18" fill="#1E3C50"/>
+<text x="30.8" y="121.5" fill="#F2F2F2" font-weight="bold" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Repair system files (SFC)                       </text>
+<rect x="442.4" y="108.0" width="84.0" height="18" fill="#1E3C50"/>
+<text x="442.4" y="121.5" fill="#13A10E" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<rect x="526.4" y="108.0" width="100.8" height="18" fill="#1E3C50"/>
+<text x="526.4" y="121.5" fill="#767676" font-weight="bold" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin slow  </text>
+<rect x="627.2" y="108.0" width="546.0" height="18" fill="#1E3C50"/>
+<text x="627.2" y="121.5" fill="#CCCCCC" font-weight="bold" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">sfc /scannow - checks and repairs protected Windows files. 5-15 m</text>
+<text x="1181.6" y="121.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="139.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="139.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Repair Windows image (DISM RestoreHealth)       </text>
+<text x="442.4" y="139.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="139.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin slow  </text>
+<text x="627.2" y="139.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Downloads clean copies of damaged components from Windows Update.</text>
+<text x="1181.6" y="139.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="157.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="157.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Check system drive (online scan)                </text>
+<text x="442.4" y="157.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="157.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin slow  </text>
+<text x="627.2" y="157.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">chkdsk /scan - finds file-system errors without a reboot. Fixes a</text>
+<text x="1181.6" y="157.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="175.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="175.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Reset network stack                             </text>
+<text x="442.4" y="175.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="526.4" y="175.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="175.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Winsock + TCP/IP reset, DNS flush, renew IP. Fixes 'connected but</text>
+<text x="1181.6" y="175.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="193.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="193.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Reset Windows Update                            </text>
+<text x="442.4" y="193.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="526.4" y="193.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="193.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Stops update services, renames SoftwareDistribution and catroot2,</text>
+<text x="1181.6" y="193.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="211.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="211.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Rebuild icon &amp; thumbnail cache                  </text>
+<text x="442.4" y="211.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="627.2" y="211.5" fill="#CCCCCC" textLength="386.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Fixes wrong or blank icons. Explorer restarts.</text>
+<text x="1181.6" y="211.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="229.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="229.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Restart Explorer                                </text>
+<text x="442.4" y="229.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="627.2" y="229.5" fill="#CCCCCC" textLength="386.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Fixes a frozen taskbar, Start menu or desktop.</text>
+<text x="1181.6" y="229.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="247.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="247.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Restart audio services                          </text>
+<text x="442.4" y="247.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="247.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="247.5" fill="#CCCCCC" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Fixes 'no sound' without a reboot.</text>
+<text x="1181.6" y="247.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="265.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="265.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Rebuild Windows Search index                    </text>
+<text x="442.4" y="265.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="265.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="265.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Fixes missing search results. Re-indexing runs in the background </text>
+<text x="1181.6" y="265.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="283.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="283.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Sync clock                                      </text>
+<text x="442.4" y="283.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="283.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="283.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Forces a time sync - fixes certificate errors caused by a wrong c</text>
+<text x="1181.6" y="283.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="301.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="301.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Reset Microsoft Store cache                     </text>
+<text x="442.4" y="301.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="627.2" y="301.5" fill="#CCCCCC" textLength="352.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">wsreset - fixes Store downloads that hang.</text>
+<text x="1181.6" y="301.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="319.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="319.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Clear stuck print jobs                          </text>
+<text x="442.4" y="319.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="319.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="319.5" fill="#CCCCCC" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Stops the print spooler, deletes queued jobs, restarts it.</text>
+<text x="1181.6" y="319.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="337.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="337.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Turn on System Protection + create restore point</text>
+<text x="442.4" y="337.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="337.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="337.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Enables System Restore on the system drive and creates a restore </text>
+<text x="1181.6" y="337.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="355.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="355.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Battery report                                  </text>
+<text x="442.4" y="355.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="627.2" y="355.5" fill="#CCCCCC" textLength="520.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Creates Windows' detailed battery history report and opens it.</text>
+<text x="1181.6" y="355.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="373.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="373.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Power plan: Balanced                            </text>
+<text x="442.4" y="373.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="627.2" y="373.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows' recommended plan: boosts when needed, saves energy other</text>
+<text x="1181.6" y="373.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="391.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="391.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Power plan: High performance                    </text>
+<text x="442.4" y="391.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="627.2" y="391.5" fill="#CCCCCC" textLength="386.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Keeps the CPU at higher clocks. Desktops only.</text>
+<text x="1181.6" y="391.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="409.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="409.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Enable SSD TRIM                                 </text>
+<text x="442.4" y="409.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="409.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="409.5" fill="#CCCCCC" textLength="344.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">fsutil behavior set DisableDeleteNotify 0</text>
+<text x="1181.6" y="409.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="427.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="427.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Optimize drives now (TRIM / defrag)             </text>
+<text x="442.4" y="427.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="427.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin slow  </text>
+<text x="627.2" y="427.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Runs Windows' drive optimizer on all volumes: TRIM for SSDs, defr</text>
+<text x="1181.6" y="427.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="445.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="445.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Let Windows manage the page file                </text>
+<text x="442.4" y="445.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="445.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="445.5" fill="#CCCCCC" textLength="302.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Restores automatic page-file sizing.</text>
+<text x="1181.6" y="445.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="463.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="463.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Disable SMBv1                                   </text>
+<text x="442.4" y="463.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="526.4" y="463.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="463.5" fill="#CCCCCC" textLength="478.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Turns off the obsolete SMB1 protocol (client and server).</text>
+<text x="1181.6" y="463.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="481.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="481.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Restart graphics driver                         </text>
+<text x="442.4" y="481.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="526.4" y="481.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="481.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Restarts the display adapter(s). Screen goes black for a moment. </text>
+<text x="1181.6" y="481.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="499.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="499.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Memory test (on next restart)                   </text>
+<text x="442.4" y="499.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="526.4" y="499.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">admin       </text>
+<text x="627.2" y="499.5" fill="#CCCCCC" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Opens Windows Memory Diagnostic to test the RAM at the next resta</text>
+<text x="1181.6" y="499.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="517.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="517.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Open Device Manager                             </text>
+<text x="442.4" y="517.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="627.2" y="517.5" fill="#CCCCCC" textLength="369.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">See and update devices with driver problems.</text>
+<text x="1181.6" y="517.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="535.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="535.5" fill="#F2F2F2" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Open Reliability Monitor                        </text>
+<text x="442.4" y="535.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="627.2" y="535.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows' timeline of crashes, failed updates and errors.</text>
+<text x="1181.6" y="535.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="553.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="1181.6" y="553.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="571.5" fill="#3A96DD" textLength="1176.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯</text>
+<text x="14.0" y="589.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╭</text>
+<text x="22.4" y="589.5" fill="#3A96DD" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Details </text>
+<text x="98.0" y="589.5" fill="#767676" textLength="1092.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮</text>
+<text x="14.0" y="607.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="607.5" fill="#3A96DD" font-weight="bold" textLength="210.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Repair system files (SFC)</text>
+<text x="1181.6" y="607.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="625.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="625.5" fill="#CCCCCC" textLength="571.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">sfc /scannow - checks and repairs protected Windows files. 5-15 min.</text>
+<text x="1181.6" y="625.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="643.5" fill="#767676" textLength="1176.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯</text>
+<text x="14.0" y="661.5" fill="#13A10E" textLength="268.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Scan complete - health 82 / 100</text>
+<rect x="14.0" y="666.0" width="58.8" height="18" fill="#767676"/>
+<text x="14.0" y="679.5" fill="#0C0C0C" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Enter </text>
+<text x="72.8" y="679.5" fill="#CCCCCC" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> run  </text>
+<rect x="123.2" y="666.0" width="75.6" height="18" fill="#767676"/>
+<text x="123.2" y="679.5" fill="#0C0C0C" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Tab/1-6 </text>
+<text x="198.8" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> tabs  </text>
+<rect x="257.6" y="666.0" width="33.6" height="18" fill="#767676"/>
+<text x="257.6" y="679.5" fill="#0C0C0C" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> F2 </text>
+<text x="291.2" y="679.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> dry run  </text>
+<rect x="375.2" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="375.2" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ? </text>
+<text x="400.4" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> help  </text>
+<rect x="459.2" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="459.2" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> q </text>
+<text x="484.4" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> quit  </text>
+</svg>

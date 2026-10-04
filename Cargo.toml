@@ -1,0 +1,56 @@
+[package]
+name = "broom"
+version = "2.0.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+authors = ["Philipp Paulik"]
+description = "Clean, uninstall, tweak and diagnose your PC from one terminal UI. Windows, macOS and Linux."
+repository = "https://github.com/philppplik/broom"
+homepage = "https://github.com/philppplik/broom"
+readme = "README.md"
+keywords = ["cleaner", "uninstaller", "tweaks", "tui", "windows"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+ratatui = "0.30"
+crossterm = "0.29"
+clap = { version = "4.6", features = ["derive"] }
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+rayon = "1.12"
+
+[target.'cfg(not(windows))'.dependencies]
+sysinfo = "0.39"
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.56"
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_UI_Shell", "Win32_UI_WindowsAndMessaging", "Win32_System_Threading", "Win32_Security", "Win32_Storage_FileSystem", "Win32_System_SystemInformation"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+[package.metadata.deb]
+maintainer = "Philipp Paulik"
+copyright = "2026, Philipp Paulik"
+license-file = ["LICENSE", "0"]
+section = "utils"
+priority = "optional"
+extended-description = "Broom cleans junk, uninstalls software with leftovers hunting, applies reversible tweaks and diagnoses your system from one terminal UI."
+assets = [
+    ["target/release/broom", "usr/bin/", "755"],
+    ["README.md", "usr/share/doc/broom/README.md", "644"],
+    ["THIRD-PARTY-NOTICES.md", "usr/share/doc/broom/THIRD-PARTY-NOTICES.md", "644"],
+]
+
+[package.metadata.generate-rpm]
+assets = [
+    { source = "target/release/broom", dest = "/usr/bin/broom", mode = "755" },
+    { source = "README.md", dest = "/usr/share/doc/broom/README.md", mode = "644", doc = true },
+    { source = "THIRD-PARTY-NOTICES.md", dest = "/usr/share/doc/broom/THIRD-PARTY-NOTICES.md", mode = "644", doc = true },
+]
