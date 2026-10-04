@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1204" height="696" viewBox="0 0 1204 696">
+<style>text{font-family:'Cascadia Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace;font-size:14px;white-space:pre}</style>
+<rect width="100%" height="100%" rx="10" fill="#0C0C0C"/>
+<rect width="100%" height="28" rx="10" fill="#1F1F1F"/><rect y="18" width="100%" height="10" fill="#1F1F1F"/>
+<circle cx="18" cy="14" r="5.5" fill="#FF5F57"/><circle cx="36" cy="14" r="5.5" fill="#FEBC2E"/><circle cx="54" cy="14" r="5.5" fill="#28C840"/>
+<text x="602" y="18" fill="#9D9D9D" text-anchor="middle" style="font-size:12px">broom</text>
+<rect x="14.0" y="36.0" width="67.2" height="18" fill="#3A96DD"/>
+<text x="14.0" y="49.5" fill="#0C0C0C" font-weight="bold" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ▌BROOM </text>
+<text x="81.2" y="49.5" fill="#767676" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> v2.0.0 </text>
+<text x="148.4" y="49.5" fill="#CCCCCC" textLength="403.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Windows 11 Home 25H2 (26200.9550) · ARM64  C:\ </text>
+<text x="551.6" y="49.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">██████░░░░</text>
+<text x="635.6" y="49.5" fill="#CCCCCC" textLength="126.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 92.26 GB free </text>
+<rect x="761.6" y="36.0" width="75.6" height="18" fill="#C19C00"/>
+<text x="761.6" y="49.5" fill="#0C0C0C" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> LIMITED </text>
+<rect x="845.6" y="36.0" width="75.6" height="18" fill="#881798"/>
+<text x="845.6" y="49.5" fill="#0C0C0C" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> DRY RUN </text>
+<text x="22.4" y="67.5" fill="#CCCCCC" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 1 Home </text>
+<text x="98.0" y="67.5" fill="#CCCCCC" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 2 Clean </text>
+<text x="182.0" y="67.5" fill="#CCCCCC" textLength="109.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 3 Uninstall </text>
+<rect x="299.6" y="54.0" width="84.0" height="18" fill="#C19C00"/>
+<text x="299.6" y="67.5" fill="#0C0C0C" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 4 Tweaks </text>
+<text x="392.0" y="67.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 5 Doctor </text>
+<text x="484.4" y="67.5" fill="#CCCCCC" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 6 Backups </text>
+<rect x="14.0" y="72.0" width="67.2" height="18" fill="#3A96DD"/>
+<text x="14.0" y="85.5" fill="#0C0C0C" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Tweaks </text>
+<text x="89.6" y="85.5" fill="#CCCCCC" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Debloat </text>
+<text x="173.6" y="85.5" fill="#CCCCCC" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> DNS </text>
+<text x="224.0" y="85.5" fill="#767676" textLength="142.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  ← → switch view</text>
+<text x="14.0" y="103.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╭</text>
+<text x="22.4" y="103.5" fill="#3A96DD" font-weight="bold" textLength="596.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Tweaks · 118 total · 13 active · 12 marked · preset: winutil Standard </text>
+<text x="618.8" y="103.5" fill="#3A96DD" textLength="571.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">───────────────────────────────────────────────────────────────────╮</text>
+<text x="14.0" y="121.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="121.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="121.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Advertising ID: off                                       </text>
+<text x="585.2" y="121.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="121.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="121.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="121.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="139.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="139.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="139.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Tailored experiences: off                                 </text>
+<text x="585.2" y="139.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="139.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="139.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="139.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="157.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<rect x="30.8" y="144.0" width="50.4" height="18" fill="#1E3C50"/>
+<text x="30.8" y="157.5" fill="#767676" font-weight="bold" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<rect x="81.2" y="144.0" width="487.2" height="18" fill="#1E3C50"/>
+<text x="81.2" y="157.5" fill="#F2F2F2" font-weight="bold" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Start, Settings &amp; lock screen suggestions: off            </text>
+<rect x="568.4" y="144.0" width="16.8" height="18" fill="#1E3C50"/>
+<rect x="585.2" y="144.0" width="193.2" height="18" fill="#1E3C50"/>
+<text x="585.2" y="157.5" fill="#767676" font-weight="bold" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<rect x="778.4" y="144.0" width="84.0" height="18" fill="#1E3C50"/>
+<text x="778.4" y="157.5" fill="#13A10E" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<rect x="862.4" y="144.0" width="67.2" height="18" fill="#1E3C50"/>
+<text x="862.4" y="157.5" fill="#3A96DD" font-weight="bold" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<rect x="929.6" y="144.0" width="243.6" height="18" fill="#1E3C50"/>
+<text x="1181.6" y="157.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="175.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="175.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="175.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Feedback requests: never                                  </text>
+<text x="585.2" y="175.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="175.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="175.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="175.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="193.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="193.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="193.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Inking &amp; typing personalization: off                      </text>
+<text x="585.2" y="193.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="193.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="193.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="193.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="211.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="211.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="211.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Online speech recognition: off                            </text>
+<text x="585.2" y="211.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="211.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="211.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="211.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="229.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="229.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="229.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Websites reading your language list: off                  </text>
+<text x="585.2" y="229.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="229.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="229.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="229.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="247.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="247.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="247.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Copilot: off                                              </text>
+<text x="585.2" y="247.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="247.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="862.4" y="247.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="929.6" y="247.5" fill="#767676" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">restart</text>
+<text x="1181.6" y="247.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="265.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="265.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="265.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Recall snapshots: off                                     </text>
+<text x="585.2" y="265.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="265.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="265.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="929.6" y="265.5" fill="#767676" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">restart</text>
+<text x="1181.6" y="265.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="283.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="283.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="283.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Cloud clipboard sync: off                                 </text>
+<text x="585.2" y="283.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="283.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="283.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="283.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="301.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="301.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="301.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Error reporting to Microsoft: off                         </text>
+<text x="585.2" y="301.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="301.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="862.4" y="301.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="301.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="319.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="319.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="319.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Find My Device: off                                       </text>
+<text x="585.2" y="319.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Privacy               </text>
+<text x="778.4" y="319.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="862.4" y="319.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="319.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="337.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="337.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="337.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Instant menus                                             </text>
+<text x="585.2" y="337.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="337.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="337.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="337.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="355.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="355.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="355.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">No startup delay for autostart apps                       </text>
+<text x="585.2" y="355.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="355.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="355.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="355.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="373.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="373.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="373.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Faster shutdown                                           </text>
+<text x="585.2" y="373.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="373.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="862.4" y="373.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="373.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="391.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="391.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ? </text>
+<text x="81.2" y="391.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">NTFS last-access timestamps: off                          </text>
+<text x="585.2" y="391.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="391.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="391.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="391.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="409.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="409.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="409.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Transparency effects: off                                 </text>
+<text x="585.2" y="409.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="409.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="409.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="409.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="427.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="427.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="427.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Window animations: off                                    </text>
+<text x="585.2" y="427.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="427.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="427.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="929.6" y="427.5" fill="#767676" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">restart</text>
+<text x="1181.6" y="427.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="445.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="445.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="445.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SysMain (Superfetch): off                                 </text>
+<text x="585.2" y="445.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="445.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="862.4" y="445.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="445.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="463.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="463.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="463.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows Search indexing: off                              </text>
+<text x="585.2" y="463.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Performance           </text>
+<text x="778.4" y="463.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="862.4" y="463.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="463.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="481.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="481.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="481.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Game Mode: on                                             </text>
+<text x="585.2" y="481.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Gaming                </text>
+<text x="778.4" y="481.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="481.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="481.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="499.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="499.5" fill="#767676" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] ○ </text>
+<text x="81.2" y="499.5" fill="#F2F2F2" textLength="487.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Background game recording (Game DVR): off                 </text>
+<text x="585.2" y="499.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Gaming                </text>
+<text x="778.4" y="499.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="862.4" y="499.5" fill="#3A96DD" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Broom   </text>
+<text x="1181.6" y="499.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="517.5" fill="#3A96DD" textLength="1176.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯</text>
+<text x="14.0" y="535.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╭</text>
+<text x="22.4" y="535.5" fill="#3A96DD" font-weight="bold" textLength="277.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Details  (i: show every change) </text>
+<text x="299.6" y="535.5" fill="#767676" textLength="890.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">─────────────────────────────────────────────────────────────────────────────────────────────────────────╮</text>
+<text x="14.0" y="553.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="553.5" fill="#3A96DD" font-weight="bold" textLength="386.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Start, Settings &amp; lock screen suggestions: off</text>
+<text x="417.2" y="553.5" fill="#767676" textLength="218.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   Privacy · source: Broom</text>
+<text x="1181.6" y="553.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="571.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="571.5" fill="#CCCCCC" textLength="680.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">No more 'suggested' apps, tips, fun facts and silently auto-installed promo apps.</text>
+<text x="1181.6" y="571.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="589.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="589.5" fill="#13A10E" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Undo: exact - previous values are journaled and restored</text>
+<text x="1181.6" y="589.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="607.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="607.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">13 change(s)</text>
+<text x="1181.6" y="607.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="625.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="1181.6" y="625.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="643.5" fill="#767676" textLength="1176.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯</text>
+<text x="14.0" y="661.5" fill="#13A10E" textLength="688.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Preset winutil Standard: winutil's recommended set (12 tweaks marked) - a applies</text>
+<rect x="14.0" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="14.0" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> / </text>
+<text x="39.2" y="679.5" fill="#CCCCCC" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> search  </text>
+<rect x="114.8" y="666.0" width="58.8" height="18" fill="#767676"/>
+<text x="114.8" y="679.5" fill="#0C0C0C" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Space </text>
+<text x="173.6" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> mark  </text>
+<rect x="232.4" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="232.4" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> p </text>
+<text x="257.6" y="679.5" fill="#CCCCCC" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> preset  </text>
+<rect x="333.2" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="333.2" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> a </text>
+<text x="358.4" y="679.5" fill="#CCCCCC" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> apply  </text>
+<rect x="425.6" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="425.6" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> u </text>
+<text x="450.8" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> undo  </text>
+<rect x="509.6" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="509.6" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> i </text>
+<text x="534.8" y="679.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> details  </text>
+<rect x="618.8" y="666.0" width="75.6" height="18" fill="#767676"/>
+<text x="618.8" y="679.5" fill="#0C0C0C" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Tab/1-6 </text>
+<text x="694.4" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> tabs  </text>
+<rect x="753.2" y="666.0" width="33.6" height="18" fill="#767676"/>
+<text x="753.2" y="679.5" fill="#0C0C0C" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> F2 </text>
+<text x="786.8" y="679.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> dry run  </text>
+<rect x="870.8" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="870.8" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ? </text>
+<text x="896.0" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> help  </text>
+<rect x="954.8" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="954.8" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> q </text>
+<text x="980.0" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> quit  </text>
+</svg>

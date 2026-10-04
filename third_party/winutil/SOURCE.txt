@@ -1,0 +1,3 @@
+Source: https://github.com/ChrisTitusTech/winutil/tree/9c87c02fdb9e057f41dd3aea051af4df6f41cf5f/config
+Copied unmodified from ChrisTitusTech/winutil (MIT, see LICENSE in this folder).
+Broom reads these files at build time (include_str!) and interprets them natively.

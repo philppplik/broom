@@ -8,19 +8,20 @@ body:
         Thanks for reporting! **Security problems** (e.g. user data deleted, junctions followed) go to a [private advisory](https://github.com/philppplik/broom/security/advisories/new) instead.
   - type: input
     id: version
-    attributes: { label: Broom version, placeholder: '1.0.0' }
+    attributes: { label: Broom version, placeholder: '2.0.0' }
+    validations: { required: true }
+  - type: dropdown
+    id: os
+    attributes: { label: Operating system, options: [Windows 11, Windows 10, macOS, Linux] }
     validations: { required: true }
   - type: input
-    id: windows
-    attributes: { label: Windows edition and build, placeholder: 'Windows 11 Pro 25H2 (26200.xxxx)' }
+    id: osver
+    attributes: { label: OS version / distro, placeholder: 'Windows 11 Pro 25H2 (26200.xxxx) / macOS 26.1 / Ubuntu 24.04' }
     validations: { required: true }
   - type: dropdown
     id: arch
     attributes: { label: Architecture, options: [x64, ARM64] }
     validations: { required: true }
-  - type: dropdown
-    id: shell
-    attributes: { label: PowerShell, options: ['Windows PowerShell 5.1', 'PowerShell 7.x'] }
   - type: input
     id: item
     attributes: { label: Which item / mode?, placeholder: 'Deep Clean > App caches' }

@@ -8,7 +8,7 @@
 param([switch]$SkipAnalyzer)
 
 $ErrorActionPreference = 'Stop'
-$root   = Split-Path -Parent $PSScriptRoot
+$root   = Split-Path -Parent $PSScriptRoot  # legacy/
 $script = Join-Path $root 'Broom.ps1'
 $failed = $false
 

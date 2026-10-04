@@ -8,319 +8,230 @@
 /_____/_/   \____/\____/_/ /_/ /_/      ///||\\\ .::
 ```
 
-**A thorough, transparent junk, leftover and registry cleaner for Windows 11.**
-One script. No installer. No telemetry. No ads. Every change backed up.
+### Clean · Uninstall · Tweak · Diagnose — one terminal UI for Windows, macOS and Linux.
+
+Every change backed up. Undo that restores your exact previous settings. No telemetry, no ads, no account.
 
 [![CI](https://github.com/philppplik/broom/actions/workflows/ci.yml/badge.svg)](https://github.com/philppplik/broom/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/philppplik/broom?sort=semver)](https://github.com/philppplik/broom/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Windows 11](https://img.shields.io/badge/Windows%2011-x64%20%7C%20ARM64-0078D4)
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1%20%7C%207.x-5391FE)
+[![Release](https://img.shields.io/github/v/release/philppplik/broom?sort=semver&color=3A96DD)](https://github.com/philppplik/broom/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/philppplik/broom/total?color=13A10E)](https://github.com/philppplik/broom/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-C19C00.svg)](LICENSE)
+![Platforms](https://img.shields.io/badge/Windows%20%C2%B7%20macOS%20%C2%B7%20Linux-x64%20%7C%20ARM64-881798)
+![Rust](https://img.shields.io/badge/built%20with-Rust%20%2B%20Ratatui-B7410E)
 
-[Quick start](#-quick-start) •
-[Modes](#-modes) •
-[What gets cleaned](#-what-gets-cleaned) •
-[Safety](#-safety-net) •
-[FAQ](#-faq) •
-[Full item reference](docs/ITEMS.md)
+[**Download**](#-download) · [Tour](#-a-quick-tour) · [Safety](#-safety-net) · [CLI](#-command-line) · [FAQ](#-faq) · [Credits](#-credits)
 
-<img src="docs/screenshots/menu.svg" alt="Broom main menu" width="820">
+<img src="docs/screenshots/home.svg" alt="Broom home screen" width="900">
 
 </div>
 
 ---
 
-## ✨ Highlights
+## ✨ What's inside
 
-- **Keyboard-driven TUI.** Arrow keys, checkboxes, a description for every item and color-coded risk levels.
-- **36 cleaning items** in four groups: system junk, updates & installers, browsers & apps, registry.
-- **Dry run first.** *Analyze* shows how much each item would free and deletes nothing.
-- **Registry cleaning you can check.** Every key and value is exported to a `.reg` file before it's touched, and you can restore it from inside the app.
-- **Restore point** before every real run.
-- **Native on ARM64 and x64.** Handles WOW64 redirection, `Program Files (x86)` and `Program Files (Arm)`.
-- **Cleans every user profile**, not only the admin account you elevated with.
-- **Auto-detects Electron / Chromium / WebView2 apps** (Discord, Teams, Slack, VS Code, Steam, Notion…) and clears only their caches.
-- **Plain, readable PowerShell.** About 1,500 lines with nothing compiled or obfuscated, so you can read it before you run it.
+| | Module | What it does |
+|---|---|---|
+| 🧹 | **Clean** | 40 Windows / 20 macOS / 17 Linux cleaning items: temp & update caches, Windows.old, WinSxS, browser & Electron app caches, GPU shader caches, package-manager caches, **stale build output in your projects**, Docker cache, registry leftovers. Read-only analysis first. |
+| 🗑️ | **Uninstall** | Every Win32, MSI and Store app (macOS: `.app` + Homebrew; Linux: deb/rpm/pacman/Flatpak/Snap) with **measured** sizes. Silent uninstall where it's safe, then a **leftover hunt** with confidence levels. Leftovers go to **quarantine**, not oblivion. Plus a **startup manager**. |
+| 🎛️ | **Tweaks** | 118 Windows tweaks (71 from winutil's catalog incl. 9 optional Windows features + 47 of Broom's own for privacy, gaming, performance, Explorer, services, network, power), presets, **Debloat** for preinstalled apps, a **DNS manager** that benchmarks resolvers from your PC. macOS and Linux tweaks too. **Undo restores the exact previous value** (80 of 118 tweaks; the rest use their undo script or are marked as one-way). |
+| 🩺 | **Doctor** | Knows your hardware (laptop vs. desktop, GPU vendor, SSD/HDD/NVMe, RAM speed vs. rating, battery wear, TPM, Secure Boot…) and checks ~40 things: blue screens, disk errors, driver problems, pending restarts, security gaps. Hardware-aware recommendations with one-key fixes, plus a **repair toolbox** (SFC, DISM, network & Windows Update reset, …). |
+| 🛟 | **Backups** | Tweak journal (undo any tweak), registry backups (re-import), quarantine (restore or purge), credits. |
 
-## 🚀 Quick start
+## 📸 A quick tour
 
-1. Download **`broom.zip`** from [Releases](https://github.com/philppplik/broom/releases) and extract it anywhere.
-2. Double-click **`Broom.cmd`** and approve the admin prompt.
-3. Choose **5 · Analyze** first to see what it finds. Then run **Quick Sweep** or **Deep Clean**.
+<table>
+<tr>
+<td width="50%"><b>Clean</b> — analysis first, then sweep<br><img src="docs/screenshots/clean.svg" alt="Clean tab"></td>
+<td width="50%"><b>Uninstall</b> — biggest first, silent where possible<br><img src="docs/screenshots/uninstall.svg" alt="Uninstall tab"></td>
+</tr>
+<tr>
+<td><b>Tweaks</b> — presets, live state, exact undo<br><img src="docs/screenshots/tweaks.svg" alt="Tweaks tab"></td>
+<td><b>DNS manager</b> — real queries, fastest wins<br><img src="docs/screenshots/dns.svg" alt="DNS benchmark"></td>
+</tr>
+<tr>
+<td><b>Doctor</b> — health score and one-key fixes<br><img src="docs/screenshots/doctor.svg" alt="Doctor findings"></td>
+<td><b>Repair toolbox</b><br><img src="docs/screenshots/repair.svg" alt="Repair actions"></td>
+</tr>
+</table>
 
-That's it. Nothing to install and nothing left behind except logs and backups in `C:\ProgramData\Broom`.
+<sub>Screenshots are rendered from the real UI (`broom snapshot`). The program list uses demo data so no one's actual software is published.</sub>
 
-<details>
-<summary><b>Other ways to install</b></summary>
+## 📦 Download
 
-**Clone with git**
+| Platform | Get it |
+|---|---|
+| **Windows** x64 (Intel/AMD) | [`broom-windows-x64.zip`](https://github.com/philppplik/broom/releases/latest/download/broom-windows-x64.zip) |
+| **Windows** ARM64 (Snapdragon / Copilot+ PCs) | [`broom-windows-arm64.zip`](https://github.com/philppplik/broom/releases/latest/download/broom-windows-arm64.zip) |
+| **macOS** 11+ (Apple Silicon + Intel) | [`broom-macos-universal.dmg`](https://github.com/philppplik/broom/releases/latest/download/broom-macos-universal.dmg) |
+| **Debian / Ubuntu / Mint** | `broom_*_amd64.deb` · `broom_*_arm64.deb` on the [release page](https://github.com/philppplik/broom/releases/latest) |
+| **Fedora / RHEL / openSUSE** | `broom-*.x86_64.rpm` · `broom-*.aarch64.rpm` on the [release page](https://github.com/philppplik/broom/releases/latest) |
+| **Any Linux** | [`broom-linux-x64.tar.gz`](https://github.com/philppplik/broom/releases/latest/download/broom-linux-x64.tar.gz) · [`broom-linux-arm64.tar.gz`](https://github.com/philppplik/broom/releases/latest/download/broom-linux-arm64.tar.gz) |
+
+Every release has a `SHA256SUMS.txt`. Releases are built by GitHub Actions from the tagged source.
+
+### One-line install
+
+**Windows** (PowerShell) — installs to `%LOCALAPPDATA%\Programs\Broom`, adds a Start-menu entry and `broom` to your PATH:
 
 ```powershell
-git clone https://github.com/philppplik/broom.git
-cd broom
-.\Broom.cmd
+irm https://raw.githubusercontent.com/philppplik/broom/main/scripts/install.ps1 | iex
 ```
 
-**One-off download in PowerShell**
+**macOS / Linux** — installs to `~/.local/bin`:
 
-```powershell
-$zip = "$env:TEMP\broom.zip"
-Invoke-WebRequest https://github.com/philppplik/broom/releases/latest/download/broom.zip -OutFile $zip
-Expand-Archive $zip "$env:USERPROFILE\Broom" -Force
-& "$env:USERPROFILE\Broom\Broom.cmd"
+```bash
+curl -fsSL https://raw.githubusercontent.com/philppplik/broom/main/scripts/install.sh | sh
 ```
 
-**Verify the download (optional)**
+Both installers verify the SHA-256 checksum before installing anything.
 
-Every release includes `SHA256SUMS.txt`:
+<details>
+<summary><b>Manual install details per OS</b></summary>
 
-```powershell
-Get-FileHash .\broom.zip -Algorithm SHA256
+**Windows** — unzip anywhere and run `broom.exe`. It asks for administrator rights (needed for system-wide cleaning, registry and services). Run with `--no-elevate` to skip that.
+
+**macOS** — open the DMG and drag **Broom.app** to Applications. Double-clicking it opens Terminal with Broom. Run *Install command-line tool* from the DMG to get `broom` in every terminal. The app isn't notarized yet, so the first time right-click → **Open**, or run `xattr -dr com.apple.quarantine /Applications/Broom.app`.
+
+**Debian/Ubuntu** — `sudo apt install ./broom_*_amd64.deb` · **Fedora** — `sudo dnf install ./broom-*.x86_64.rpm`
+
+Use `sudo broom` for system-wide items (package caches, journal, system logs); without sudo Broom cleans your user data and skips the rest.
+
+**From source** — `cargo install --git https://github.com/philppplik/broom` (Rust 1.85+).
+</details>
+
+## ⌨️ Using it
+
+```
+broom                 open the TUI
+broom --tab doctor    open a specific tab
+broom --dry-run       nothing is changed, everything is reported
 ```
 
-</details>
-
-### Requirements
-
-| | |
+| Keys | |
 |---|---|
-| OS | Windows 11 (Windows 10 mostly works but is not tested) |
-| CPU | x64 (Intel / AMD) or ARM64 (Snapdragon) |
-| Shell | Windows PowerShell 5.1 (built in) or PowerShell 7.x |
-| Rights | Administrator (Broom asks for elevation itself) |
-| Terminal | Windows Terminal or the classic console, at least 100×34 recommended |
+| `1`–`6`, `Tab`, mouse click | switch tabs |
+| `←` `→` | switch views inside a tab (Programs ↔ Startup, Tweaks ↔ Debloat ↔ DNS, Findings ↔ Repair ↔ Hardware…) |
+| `↑` `↓` `PgUp` `PgDn`, mouse wheel | move |
+| `Space` | tick / untick |
+| `Enter` | the main action of the tab (analyze, apply, fix, restore…) |
+| `/` | search (Uninstall, Tweaks) |
+| `F2` | **dry-run mode** for everything |
+| `?` | help · `q` quit |
 
-## 🧹 Modes
+<img src="docs/screenshots/help.svg" alt="Help overlay" width="700">
 
-| | Mode | Items | What it means |
-|---|---|:-:|---|
-| 1 | **Quick Sweep** | 12 | Safe everyday junk: temp files, caches, logs, update downloads, crash dumps, Recycle Bin. |
-| 2 | **Deep Clean** | 28 | Quick + Windows.old, WinSxS, Disk Cleanup, installer leftovers, app/dev caches, broken shortcuts, registry. |
-| 3 | **Nuclear** | 36 | Everything, including old drivers, old restore points, hibernation, reserved storage, event logs, COM registry and history. |
-| 4 | **Custom** | – | Pick items one by one. Can also run as a dry run (press `D`). |
-| 5 | **Analyze** | 36 | Dry run of everything. Deletes nothing. |
-| 6 | **Backups & Logs** | – | Restore registry backups, open logs, launch System Restore. |
+## 🛟 Safety net
 
-<div align="center">
-<img src="docs/screenshots/custom.svg" alt="Custom item picker" width="820">
-</div>
+Broom is aggressive about junk and conservative about everything else.
 
-### Keys
-
-| Screen | Keys |
+| Guard | How it works |
 |---|---|
-| Main menu | `↑` `↓` move · `Enter` select · `1`–`6` jump · `Q` / `Esc` quit |
-| Custom picker | `Space` toggle · `A` all · `N` none · `1` `2` `3` load preset · `D` dry run · `PgUp` `PgDn` `Home` `End` · `Enter` go · `Esc` back |
-| Prompts | `Y` / `N` / `Enter` = default / `Esc` = no |
+| **Analyze before delete** | Clean analyzes read-only on open. `F2` / `--dry-run` turns every module into a simulation. |
+| **Restore point** | Created before cleaning and before applying tweaks (Windows, as admin; the 1-per-24h limit is lifted for that call). |
+| **Registry export** | Every key Broom changes or deletes is exported to `.reg` first — re-import from the Backups tab. |
+| **Exact undo** | Registry, service and settings tweaks journal the *actual* previous value (or "didn't exist"), so undo restores precisely what you had. Script-based tweaks use their undo script; the few one-way actions are flagged red before you confirm. |
+| **Quarantine** | Uninstall leftovers are moved, not deleted. Restore with one key; purge when you're sure. |
+| **No link following** | Deletion never traverses junctions, symlinks or cloud placeholders (OneDrive "files on demand"). [Tested in CI](src/util/fs.rs). |
+| **Protected places** | Documents, Downloads, Pictures, Music, Videos, OneDrive/iCloud/Dropbox and system roots are hard-blocked. Downloads is excluded even from Windows' own Disk Cleanup. |
+| **Conservative "missing" test** | A registry entry is orphaned only if the drive exists, the parent folder is readable, and no `System32`↔`SysWOW64`/`SysArm32` or `Program Files`↔`(x86)`/`(Arm)` variant exists. |
+| **Thread-safe dry run** | An analysis running in one tab can never turn a real job in another tab into a simulation, or vice versa. |
+| **Logs** | Everything is logged to the data folder (`%ProgramData%\Broom`, `~/Library/Application Support/Broom`, `~/.local/share/broom`). |
 
-## 🗂 What gets cleaned
+## 🤖 Command line
 
-Risk levels: 🟢 **Safe**: nothing you'd miss · 🟡 **Moderate**: rebuilt automatically or loses a convenience · 🔴 **Aggressive**: removes a way back.
+Everything the TUI does is scriptable — great for scheduled maintenance and fleets.
 
-<details open>
-<summary><b>System junk</b></summary>
-
-| Item | Risk | Tier |
-|---|:-:|:-:|
-| User temp files (all profiles) | 🟢 | Quick |
-| Windows temp files | 🟢 | Quick |
-| Error reports (WER) | 🟢 | Quick |
-| Crash & memory dumps | 🟢 | Quick |
-| Windows log files (CBS, DISM, setup, update) | 🟢 | Quick |
-| Recycle Bin (all drives, all users) | 🟡 | Quick |
-| DNS, ARP & NetBIOS caches | 🟢 | Quick |
-| Thumbnail & icon cache | 🟡 | Deep |
-| Prefetch data | 🟡 | Nuclear |
-
-</details>
-
-<details>
-<summary><b>Updates & installers</b></summary>
-
-| Item | Risk | Tier |
-|---|:-:|:-:|
-| Windows Update download cache | 🟢 | Quick |
-| Delivery Optimization cache | 🟢 | Quick |
-| Old Windows installations (Windows.old, `$Windows.~BT`…) | 🟡 | Deep |
-| Windows Disk Cleanup, every category except Downloads | 🟡 | Deep |
-| Component store cleanup (`DISM /ResetBase`) | 🟡 | Deep |
-| Installer & updater leftovers (C:\AMD, C:\NVIDIA, MSOCache, Squirrel packages…) | 🟡 | Deep |
-| Orphaned Windows Installer packages (`C:\Windows\Installer`) | 🔴 | Nuclear |
-| Old driver versions (DriverStore) | 🔴 | Nuclear |
-| Old restore points & shadow copies (newest kept) | 🔴 | Nuclear |
-| Hibernation file `hiberfil.sys` | 🔴 | Nuclear |
-| Reserved storage | 🔴 | Nuclear |
-| Event logs (all channels) | 🔴 | Nuclear |
-
-</details>
-
-<details>
-<summary><b>Browsers & apps</b></summary>
-
-| Item | Risk | Tier |
-|---|:-:|:-:|
-| Browser caches: Edge, Chrome, Brave, Opera, Vivaldi | 🟢 | Quick |
-| Firefox-family caches: Firefox, LibreWolf, Waterfox, Zen | 🟢 | Quick |
-| App caches: every Electron / Chromium / WebView2 app, auto-detected | 🟢 | Quick |
-| GPU shader caches (DirectX, NVIDIA, AMD, Intel) | 🟢 | Deep |
-| Store app temp & web caches | 🟢 | Deep |
-| Developer caches: npm, Yarn, pnpm, pip, uv, Poetry, NuGet, Go, Cargo, Composer, Scoop, Chocolatey | 🟡 | Deep |
-| Broken shortcuts (Start menu & Desktop) | 🟢 | Deep |
-| Empty leftover folders of uninstalled apps | 🟡 | Deep |
-| Recent files, jump lists & Explorer history | 🟡 | Nuclear |
-
-</details>
-
-<details>
-<summary><b>Registry</b></summary>
-
-| Item | Risk | Tier |
-|---|:-:|:-:|
-| Ghost entries in "Installed apps" | 🟡 | Deep |
-| Dead "App Paths" registrations | 🟢 | Deep |
-| Dead startup entries (Run / RunOnce + Task Manager toggle) | 🟡 | Deep |
-| MUI cache of deleted programs | 🟢 | Deep |
-| Missing SharedDLLs & Installer folder references | 🟡 | Deep |
-| Orphaned COM / ActiveX registrations | 🔴 | Nuclear |
-
-</details>
-
-👉 Exact paths, keys and rules for every item: **[docs/ITEMS.md](docs/ITEMS.md)**
-
-<div align="center">
-<img src="docs/screenshots/analyze.svg" alt="Analyze run with results" width="820">
-</div>
-
-## 🛡 Safety net
-
-Broom is built to be aggressive about junk and careful about everything else.
-
-| Guard | How |
-|---|---|
-| **Restore point** | Created before every real run. Windows' one-per-24h limit is lifted for this one call. |
-| **Registry backups** | Each touched key is exported once per run to `C:\ProgramData\Broom\Backups\<timestamp>\NNNN.reg`. Restore from menu `6`. |
-| **Protected folders** | Documents, Downloads, Pictures, Videos, Music, Favorites, OneDrive and drive/system roots are hard-blocked. The Desktop only loses broken `.lnk` files. |
-| **No link following** | Junctions, symlinks and cloud placeholders (OneDrive) are never traversed or deleted through. |
-| **Locked files** | Skipped silently, never forced. |
-| **Conservative "missing" check** | A registry entry counts as orphaned only if its path is absolute, the drive exists, its parent folder can actually be read, and no `System32`/`SysWOW64`/`SysArm32` or `Program Files`/`(x86)`/`(Arm)` variant exists. Network and removable paths are never judged. |
-| **Never touched** | Passwords, cookies, browser history, `ProgramData\Package Cache`, MSI-based uninstall entries, your Downloads (even in Disk Cleanup). |
-| **Logs** | Every run, every registry change and every removed shortcut/package is logged to `C:\ProgramData\Broom\Logs`. |
-
-## 🤖 Unattended / scheduled use
-
-```powershell
-# Dry run, no prompts
-powershell -ExecutionPolicy Bypass -File .\Broom.ps1 -Mode Analyze -Yes
-
-# Weekly deep clean without questions
-powershell -ExecutionPolicy Bypass -File .\Broom.ps1 -Mode Deep -Yes
-```
-
-| Parameter | Description |
-|---|---|
-| `-Mode Menu\|Quick\|Deep\|Nuclear\|Analyze` | Default `Menu` (the TUI). Anything else runs once and exits. |
-| `-Yes` | Skips confirmations and leaves running apps open (their locked files are skipped). |
-| `-NoRestorePoint` | Skips the System Restore point. |
-| `-NoElevate` | For testing only: runs without admin rights, and many items are skipped. |
-
-Example scheduled task (weekly, Sunday 3 AM, as SYSTEM):
-
-```powershell
-$a = New-ScheduledTaskAction -Execute powershell.exe -Argument '-NoProfile -ExecutionPolicy Bypass -File "C:\Tools\Broom\Broom.ps1" -Mode Quick -Yes'
-$t = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At 3am
-Register-ScheduledTask -TaskName Broom -Action $a -Trigger $t -User SYSTEM -RunLevel Highest
+```bash
+broom clean --tier quick              # analysis only (read-only)
+broom clean --tier deep --yes         # actually clean
+broom clean --tier nuclear --json     # machine-readable
+broom uninstall --measure --json      # inventory with real sizes
+broom tweaks list                     # ● applied  ○ not applied  ? unknown
+broom tweaks apply ads-id-off game-dvr-off hags-on
+broom tweaks undo hags-on
+broom doctor --json > health.json
+broom dns                             # benchmark public DNS from this machine
 ```
 
 ## ❓ FAQ
 
-<details>
-<summary><b>Is it safe?</b></summary>
+<details><summary><b>Is it safe?</b></summary>
 
-As safe as a deep cleaner can be: restore point, `.reg` backups, protected folders, no link following, and a dry run to check first. Still, **Nuclear** removes rollback options on purpose (Windows.old, update uninstall, old restore points). Run **Analyze** first if you're unsure.
+As safe as a deep cleaner can be — see the [safety net](#-safety-net). Aggressive items (old restore points, Windows.old, hibernation, COM registry…) are clearly marked red and never part of the Quick preset. Try `--dry-run` first.
 </details>
 
-<details>
-<summary><b>Windows says "running scripts is disabled on this system".</b></summary>
+<details><summary><b>Windows SmartScreen / my antivirus warns about broom.exe</b></summary>
 
-Use `Broom.cmd`. It starts PowerShell with `-ExecutionPolicy Bypass` for this one process and doesn't change your system policy. If you downloaded the ZIP, you can also run `Unblock-File .\Broom.ps1`.
+Broom isn't code-signed yet (certificates are expensive for a free project). Tools that delete files and edit the registry also trip heuristics. The binary is built by GitHub Actions from this repo; compare the hash with `SHA256SUMS.txt`, or build it yourself with `cargo build --release`.
 </details>
 
-<details>
-<summary><b>SmartScreen / antivirus warns about it.</b></summary>
+<details><summary><b>Will I be logged out of websites?</b></summary>
 
-Unsigned scripts that delete files and edit the registry sometimes get flagged by heuristics. The source is all here and readable. Compare `SHA256SUMS.txt` from the release if you want to be sure your copy wasn't altered.
+No. Only cache folders are emptied. Cookies, passwords, history and extensions stay.
 </details>
 
-<details>
-<summary><b>Will I be logged out of websites or lose passwords?</b></summary>
+<details><summary><b>How do I undo a tweak?</b></summary>
 
-No. Only cache folders are emptied. Cookies, saved passwords, history and extensions stay.
+Tweaks tab → select it → `u`. Or Backups → Tweak journal → `Enter`. Undo uses the value Broom recorded before applying it. If a tweak was applied by another tool, Broom falls back to the documented default.
 </details>
 
-<details>
-<summary><b>Why does Analyze show 0 B for WinSxS / Disk Cleanup / Windows.old?</b></summary>
+<details><summary><b>An uninstall removed too much / a leftover was needed</b></summary>
 
-Those are handled by Windows' own tools (DISM, cleanmgr), which can't report a size up front. On a real run Broom measures the actual free-space difference.
+Backups → Quarantine → select the set → `Enter`. Files go back to where they were. Registry keys can be re-imported from Backups → Registry backups.
 </details>
 
-<details>
-<summary><b>The freed space is lower than Analyze predicted.</b></summary>
+<details><summary><b>Why does the Doctor say "Limited scan"?</b></summary>
 
-Files in use (open browsers, running apps, active logs) are skipped. Close apps when Broom asks, or restart and run it again.
+Disk health (SMART), BitLocker, restore points and the Windows component store can only be read with administrator rights. Start Broom normally (it asks for elevation) instead of with `--no-elevate`.
 </details>
 
-<details>
-<summary><b>How do I undo a registry change?</b></summary>
+<details><summary><b>Does it work on Snapdragon / ARM64?</b></summary>
 
-Main menu → **6 Backups & Logs** → press the number of the backup. Or double-click any `.reg` file in `C:\ProgramData\Broom\Backups\<timestamp>`. For everything else, use the restore point (press `S` on the same screen).
+Yes — Broom is developed on a Windows 11 ARM64 laptop and ships native ARM64 builds for Windows, macOS and Linux. CI tests on ARM64 Windows and Linux runners.
 </details>
 
-<details>
-<summary><b>I want hibernation / Fast Startup back.</b></summary>
+<details><summary><b>Does it phone home?</b></summary>
 
-`powercfg /h on` in an admin terminal. Reserved storage: `DISM /Online /Set-ReservedStorageState /State:Enabled`.
+No. The only network traffic is the DNS benchmark you start yourself (DNS queries to the providers listed) and the package downloads Windows/winget make when you reinstall a removed Store app.
 </details>
 
-<details>
-<summary><b>Does it work on ARM64 (Snapdragon / Copilot+ PCs)?</b></summary>
+<details><summary><b>Where did the PowerShell version go?</b></summary>
 
-Yes. Broom was developed on a Windows 11 ARM64 machine and runs natively there. It detects the native architecture and handles x86/x64 emulation paths. CI runs it on both `windows-latest` (x64) and `windows-11-arm`.
-</details>
-
-<details>
-<summary><b>Does it phone home or update itself?</b></summary>
-
-No network access at all. Updates are manual: download a new release.
-</details>
-
-<details>
-<summary><b>Why PowerShell and not a .exe?</b></summary>
-
-So you can read every line before giving it admin rights. Nothing is compiled, packed or hidden.
-</details>
-
-<details>
-<summary><b>How do I remove Broom?</b></summary>
-
-Delete its folder and `C:\ProgramData\Broom`. It installs nothing else.
+Broom 1.x lives on in [`legacy/`](legacy/) and its [v1.0.0 release](https://github.com/philppplik/broom/releases/tag/v1.0.0). 2.0 is a rewrite in Rust with a real TUI and macOS/Linux support.
 </details>
 
 ## 🧩 Project layout
 
 ```
-Broom.ps1               the whole tool (bootstrap, engine, tasks, TUI, runner)
-Broom.cmd               double-click launcher
-docs/ITEMS.md           exact rules for every cleaning item
-docs/screenshots/       README images
-.github/                CI, release pipeline, templates, Dependabot
+src/
+  clean/       cleaning catalog per OS + shared browser/app/developer items
+  uninstall/   programs, leftovers, quarantine, startup manager
+  tweaks/      tweak engine + journal, Broom's catalogs, winutil interpreter, debloat, DNS
+  doctor/      hardware facts, findings, repair actions per OS
+  tui/         Ratatui app: tabs, jobs, modals, theme, headless snapshot/export
+  util/        safe file system, registry with backups, system facts
+third_party/   embedded winutil data (MIT)
+packaging/     macOS app bundle + DMG builder
+scripts/       one-line installers
+legacy/        Broom 1.x (PowerShell)
 ```
 
 ## 🤝 Contributing
 
-Ideas, bug reports and new cleaning items are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md). The short version: every new item needs a dry-run path, must never follow reparse points, and must back up registry changes. Security issues → [SECURITY.md](SECURITY.md).
+Bug reports, new cleaning items and tweaks are very welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Security issues: [SECURITY.md](SECURITY.md).
+
+## 🙏 Credits
+
+Broom stands on the shoulders of these projects — please star them:
+
+- **[winutil](https://github.com/ChrisTitusTech/winutil)** by Chris Titus Tech (MIT) — Broom embeds its tweak, feature, app and DNS catalogs unmodified.
+- **[Bulk Crap Uninstaller](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller)** by Marcin Szeniak (Apache-2.0) and **[Prune](https://github.com/jimman0I/prune)** by jimman0I (MIT) — the uninstaller follows their approach to silent uninstalls, leftover detection and quarantine.
+- **[Optimizer](https://github.com/hellzerg/optimizer)** (hellzerg), **[Sparkle](https://github.com/thedogecraft/sparkle)** (thedogecraft), **[ReviOS Playbook](https://github.com/meetrevision/playbook)** (Revision), **[Slate](https://github.com/QuiteAFancyEmerald/Slate-Desktop-for-Windows-11)** (QuiteAFancyEmerald) and **[MangoDisk](https://github.com/harry0703/MangoDisk)** (harry0703) — their feature sets inspired Broom's own tweaks, DNS benchmark, repair tools and developer cleanup. These are GPL/CC-BY-SA, so no code was copied.
+
+Details in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 ## 📜 License
 
 [MIT](LICENSE) © 2026 Philipp Paulik
 
-<sub>Broom is provided "as is", without warranty. It deletes things; that's the point. Read what an item does before you tick it.</sub>
+<sub>Broom is provided as is, without warranty. It deletes things — that's the point. Read what an item does before you tick it.</sub>

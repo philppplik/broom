@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1204" height="696" viewBox="0 0 1204 696">
+<style>text{font-family:'Cascadia Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace;font-size:14px;white-space:pre}</style>
+<rect width="100%" height="100%" rx="10" fill="#0C0C0C"/>
+<rect width="100%" height="28" rx="10" fill="#1F1F1F"/><rect y="18" width="100%" height="10" fill="#1F1F1F"/>
+<circle cx="18" cy="14" r="5.5" fill="#FF5F57"/><circle cx="36" cy="14" r="5.5" fill="#FEBC2E"/><circle cx="54" cy="14" r="5.5" fill="#28C840"/>
+<text x="602" y="18" fill="#9D9D9D" text-anchor="middle" style="font-size:12px">broom</text>
+<rect x="14.0" y="36.0" width="67.2" height="18" fill="#3A96DD"/>
+<text x="14.0" y="49.5" fill="#0C0C0C" font-weight="bold" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ▌BROOM </text>
+<text x="81.2" y="49.5" fill="#767676" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> v2.0.0 </text>
+<text x="148.4" y="49.5" fill="#CCCCCC" textLength="403.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Windows 11 Home 25H2 (26200.9550) · ARM64  C:\ </text>
+<text x="551.6" y="49.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">██████░░░░</text>
+<text x="635.6" y="49.5" fill="#CCCCCC" textLength="126.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 92.21 GB free </text>
+<rect x="761.6" y="36.0" width="75.6" height="18" fill="#C19C00"/>
+<text x="761.6" y="49.5" fill="#0C0C0C" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> LIMITED </text>
+<rect x="845.6" y="36.0" width="75.6" height="18" fill="#881798"/>
+<text x="845.6" y="49.5" fill="#0C0C0C" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> DRY RUN </text>
+<text x="22.4" y="67.5" fill="#CCCCCC" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 1 Home </text>
+<rect x="98.0" y="54.0" width="75.6" height="18" fill="#C19C00"/>
+<text x="98.0" y="67.5" fill="#0C0C0C" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 2 Clean </text>
+<text x="182.0" y="67.5" fill="#CCCCCC" textLength="109.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 3 Uninstall </text>
+<text x="299.6" y="67.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 4 Tweaks </text>
+<text x="392.0" y="67.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 5 Doctor </text>
+<text x="484.4" y="67.5" fill="#CCCCCC" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> 6 Backups </text>
+<text x="14.0" y="85.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╭</text>
+<text x="22.4" y="85.5" fill="#3A96DD" font-weight="bold" textLength="504.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Clean · preset Deep · 28 of 40 selected · 927.3 MB to free </text>
+<text x="526.4" y="85.5" fill="#3A96DD" textLength="663.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">──────────────────────────────────────────────────────────────────────────────╮</text>
+<text x="14.0" y="103.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="103.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="103.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">User temp files                                         </text>
+<text x="534.8" y="103.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="103.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="103.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   68.7 MB</text>
+<text x="1181.6" y="103.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="121.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="121.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="121.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows temp files                                      </text>
+<text x="534.8" y="121.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="121.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="121.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="121.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="139.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="139.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="139.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Error reports (WER)                                     </text>
+<text x="534.8" y="139.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="139.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="139.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="139.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="157.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="157.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="157.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Crash &amp; memory dumps                                    </text>
+<text x="534.8" y="157.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="157.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="157.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="157.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="175.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<rect x="30.8" y="162.0" width="33.6" height="18" fill="#1E3C50"/>
+<text x="30.8" y="175.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<rect x="64.4" y="162.0" width="470.4" height="18" fill="#1E3C50"/>
+<text x="64.4" y="175.5" fill="#F2F2F2" font-weight="bold" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows log files                                       </text>
+<rect x="534.8" y="162.0" width="176.4" height="18" fill="#1E3C50"/>
+<text x="534.8" y="175.5" fill="#767676" font-weight="bold" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<rect x="711.2" y="162.0" width="84.0" height="18" fill="#1E3C50"/>
+<text x="711.2" y="175.5" fill="#13A10E" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<rect x="795.2" y="162.0" width="84.0" height="18" fill="#1E3C50"/>
+<text x="795.2" y="175.5" fill="#CCCCCC" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    9.4 MB</text>
+<rect x="879.2" y="162.0" width="16.8" height="18" fill="#1E3C50"/>
+<rect x="896.0" y="162.0" width="277.2" height="18" fill="#1E3C50"/>
+<text x="1181.6" y="175.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="193.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="193.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="193.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Recycle Bin (all drives, all users)                     </text>
+<text x="534.8" y="193.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="193.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="795.2" y="193.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="193.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="211.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="211.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="211.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">DNS, ARP &amp; NetBIOS caches                               </text>
+<text x="534.8" y="211.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="211.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="211.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  would flush</text>
+<text x="1181.6" y="211.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="229.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="229.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="229.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Thumbnail &amp; icon cache                                  </text>
+<text x="534.8" y="229.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="229.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="795.2" y="229.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   14.1 MB</text>
+<text x="1181.6" y="229.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="247.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="247.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="247.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Font cache                                              </text>
+<text x="534.8" y="247.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="247.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="795.2" y="247.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="247.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="265.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="265.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="265.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Prefetch data                                           </text>
+<text x="534.8" y="265.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">System junk          </text>
+<text x="711.2" y="265.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="795.2" y="265.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="265.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="283.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="283.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="283.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows Update download cache                           </text>
+<text x="534.8" y="283.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="283.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="283.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="283.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="301.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="301.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="301.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Delivery Optimization cache                             </text>
+<text x="534.8" y="301.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="301.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="301.5" fill="#767676" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  </text>
+<text x="1181.6" y="301.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="319.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="319.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="319.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Old Windows installations (Windows.old...)              </text>
+<text x="534.8" y="319.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="319.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="795.2" y="319.5" fill="#767676" textLength="210.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  nothing found</text>
+<text x="1181.6" y="319.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="337.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="337.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="337.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows Disk Cleanup (every category)                   </text>
+<text x="534.8" y="337.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="337.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="795.2" y="337.5" fill="#767676" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  measured on a real run</text>
+<text x="1181.6" y="337.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="355.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="355.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="355.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Component store cleanup (WinSxS /ResetBase)             </text>
+<text x="534.8" y="355.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="355.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE  </text>
+<text x="795.2" y="355.5" fill="#767676" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  measured on a real run</text>
+<text x="1181.6" y="355.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">█</text>
+<text x="14.0" y="373.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="373.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="373.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Installer &amp; updater leftovers                           </text>
+<text x="534.8" y="373.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="373.5" fill="#C19C00" textLength="168.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MODERATE    245.9 MB</text>
+<text x="1181.6" y="373.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="391.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="391.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="391.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Orphaned Windows Installer packages                     </text>
+<text x="534.8" y="391.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="391.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="795.2" y="391.5" fill="#767676" textLength="378.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  could not verify - skipped for sa</text>
+<text x="1181.6" y="391.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="409.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="409.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="409.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Old driver versions (DriverStore)                       </text>
+<text x="534.8" y="409.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="409.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="795.2" y="409.5" fill="#767676" textLength="184.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  0 packages</text>
+<text x="1181.6" y="409.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="427.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="427.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="427.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Old restore points &amp; shadow copies                      </text>
+<text x="534.8" y="427.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="427.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="795.2" y="427.5" fill="#767676" textLength="226.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  0 old snapshots</text>
+<text x="1181.6" y="427.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="445.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="445.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="445.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Hibernation file (hiberfil.sys)                         </text>
+<text x="534.8" y="445.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="445.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="795.2" y="445.5" fill="#767676" textLength="193.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  already off</text>
+<text x="1181.6" y="445.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="463.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="463.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="463.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Reserved storage                                        </text>
+<text x="534.8" y="463.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="463.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="795.2" y="463.5" fill="#767676" textLength="310.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -  up to ~7 GB after restart</text>
+<text x="1181.6" y="463.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="481.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="481.5" fill="#767676" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[ ] </text>
+<text x="64.4" y="481.5" fill="#CCCCCC" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Event logs (all channels)                               </text>
+<text x="534.8" y="481.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Updates &amp; installers </text>
+<text x="711.2" y="481.5" fill="#C50F1F" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AGGRESSIVE</text>
+<text x="795.2" y="481.5" fill="#C19C00" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  102.6 MB</text>
+<text x="879.2" y="481.5" fill="#767676" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  1165 logs</text>
+<text x="1181.6" y="481.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="499.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="499.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="499.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">GPU shader caches (DirectX, NVIDIA, AMD, Intel, Qualco… </text>
+<text x="534.8" y="499.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Browsers &amp; apps      </text>
+<text x="711.2" y="499.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="499.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   12.4 MB</text>
+<text x="1181.6" y="499.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="517.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="517.5" fill="#13A10E" font-weight="bold" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[x] </text>
+<text x="64.4" y="517.5" fill="#F2F2F2" textLength="470.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Store app temp &amp; web caches                             </text>
+<text x="534.8" y="517.5" fill="#767676" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Browsers &amp; apps      </text>
+<text x="711.2" y="517.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="795.2" y="517.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    9.1 MB</text>
+<text x="1181.6" y="517.5" fill="#3A96DD" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">║</text>
+<text x="14.0" y="535.5" fill="#3A96DD" textLength="1176.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯</text>
+<text x="14.0" y="553.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╭</text>
+<text x="22.4" y="553.5" fill="#3A96DD" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Details </text>
+<text x="98.0" y="553.5" fill="#767676" textLength="1092.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮</text>
+<text x="14.0" y="571.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="571.5" fill="#3A96DD" font-weight="bold" textLength="142.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Windows log files</text>
+<text x="173.6" y="571.5" fill="#767676" textLength="134.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   tier Quick · </text>
+<text x="308.0" y="571.5" fill="#13A10E" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SAFE      </text>
+<text x="1181.6" y="571.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="589.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="30.8" y="589.5" fill="#CCCCCC" textLength="562.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">CBS, DISM, setup, upgrade and update logs. Active logs are skipped.</text>
+<text x="1181.6" y="589.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="607.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="1181.6" y="607.5" fill="#767676" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">│</text>
+<text x="14.0" y="625.5" fill="#767676" textLength="1176.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯</text>
+<text x="14.0" y="643.5" fill="#767676" textLength="352.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Enter re-analyzes · r cleans the selection</text>
+<text x="14.0" y="661.5" fill="#13A10E" textLength="546.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Analysis done - 927.3 MB can be freed with the current selection</text>
+<rect x="14.0" y="666.0" width="58.8" height="18" fill="#767676"/>
+<text x="14.0" y="679.5" fill="#0C0C0C" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Space </text>
+<text x="72.8" y="679.5" fill="#CCCCCC" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> toggle  </text>
+<rect x="148.4" y="666.0" width="42.0" height="18" fill="#767676"/>
+<text x="148.4" y="679.5" fill="#0C0C0C" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> a/n </text>
+<text x="190.4" y="679.5" fill="#CCCCCC" textLength="92.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> all/none  </text>
+<rect x="282.8" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="282.8" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> p </text>
+<text x="308.0" y="679.5" fill="#CCCCCC" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> preset  </text>
+<rect x="383.6" y="666.0" width="58.8" height="18" fill="#767676"/>
+<text x="383.6" y="679.5" fill="#0C0C0C" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Enter </text>
+<text x="442.4" y="679.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> analyze  </text>
+<rect x="526.4" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="526.4" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> r </text>
+<text x="551.6" y="679.5" fill="#CCCCCC" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> clean  </text>
+<rect x="618.8" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="618.8" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> s </text>
+<text x="644.0" y="679.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> summary  </text>
+<rect x="728.0" y="666.0" width="75.6" height="18" fill="#767676"/>
+<text x="728.0" y="679.5" fill="#0C0C0C" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> Tab/1-6 </text>
+<text x="803.6" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> tabs  </text>
+<rect x="862.4" y="666.0" width="33.6" height="18" fill="#767676"/>
+<text x="862.4" y="679.5" fill="#0C0C0C" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> F2 </text>
+<text x="896.0" y="679.5" fill="#CCCCCC" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> dry run  </text>
+<rect x="980.0" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="980.0" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ? </text>
+<text x="1005.2" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> help  </text>
+<rect x="1064.0" y="666.0" width="25.2" height="18" fill="#767676"/>
+<text x="1064.0" y="679.5" fill="#0C0C0C" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> q </text>
+<text x="1089.2" y="679.5" fill="#CCCCCC" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> quit  </text>
+</svg>
